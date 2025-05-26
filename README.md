@@ -17,7 +17,7 @@
 
 **This project uses an <mark>ESP32 microcontroller integrated with a TTP223 touch sensor and a NeoPixel RGB LED ring</mark>, all controlled through the <mark>Blynk IoT app</mark>. The LEDs can be turned on or off either by touching the sensor or using a virtual switch in the app, with both methods kept in sync. Additionally, the app includes <mark>three slider widgets to adjust the Red, Green, and Blue color intensities of the LEDs</mark> in real-time applying only when the LEDs are on. <mark>This setup provides a simple, interactive smart lighting system that combines physical touch and remote app control</mark>.**
 
-> ## <font color="lighblue">***HARDWARE COMPONENTS***</font>
+> ## <b><i><font color="lighblue">HARDWARE COMPONENTS</font>
 <ul>
 <li><b>ESP 32 (ESP 32 Dev Module)</b></li>
 <li><b>TTP 223 Capacitive touch sensor module (<mark>KY 036 module as alternative</mark>)</b></li>
@@ -26,7 +26,7 @@
 <li><b>Jumper wires</b></li>
 </ul>
 
-> ## <font color="lighblue">***CODE***</font>
+> ## <b><i><font color="lighblue">CODE</font>
 
 **Code can be written in <mark>Arduino IDE/C++</mark> or any other compatible software.**
 
@@ -125,32 +125,32 @@ void turnOffLEDs() {
 }
 ```
 
-> ## <font color="lighblue">***CIRCUIT DIAGRAM***</font>
+> ## <b><i><font color="lighblue">CIRCUIT DIAGRAM</font>
 
 ![CIRCUIT DIAGRAM](Circuit_diagram.png)
 
-> ## <font color="lighblue">***BLYNK WEB APP SETUP***</font>
-- <font color="lightgreen">**CREATE TEMPLATE**</font>
+> ## <b><i><font color="lighblue">BLYNK WEB APP SETUP</font>
+- <b><font color="lightgreen">CREATE TEMPLATE</font>
 
 ![1](1.png)
 
-- <font color="lightgreen">**CREATE DATASTREAMS**</font>
+- <b><font color="lightgreen">CREATE DATASTREAMS</font>
   
 ![2](2.png)
 
-- <font color="lightgreen">**SET UP WEB DASHBOARD**</font>
+- <b><font color="lightgreen">SET UP WEB DASHBOARD</font>
   
 ![3](3.png)
 
-- <font color="lightgreen">**DEVICE CREATION**</font>
+- <b><font color="lightgreen">DEVICE CREATION</font>
 
 ![4](4.png)
 
-> ## <font color="lighblue">***BLYNK USER INTERFACE***</font>
+> ## <b><i><font color="lighblue">BLYNK USER INTERFACE</font>
 
 ![UI](phone.jpg)
 
-> ## <font color="lighblue">***NOTES***</font>
+> ## <b><i><font color="lighblue">NOTES</font>
 
 <ul>
 <li><mark>A separate library has to be installed and included</mark> in the code for the RGB Neopixel to be enabled and the intensities of the colours can be changed.</li>
@@ -161,13 +161,13 @@ void turnOffLEDs() {
 <li>Use an USB cable that transmits both power and data to the ESP 32 while uploading the code.</li>
 </ul>
 
-> ## <font color="lighblue">***MODIFICATIONS***</font>
+> ## <b><i><font color="lighblue">MODIFICATIONS</font>
 
 <ul>
 <li><mark>A PIR motion sensor (HC-SR501 Module)</mark> can be used instead of a touch sensor to enable the LED to switch on when motion is detected.</li>
 </ul>
 
-> ## <font color="lighblue">***DEMO VIDEO***</font>
+> ## <b><i><font color="lighblue">DEMO VIDEO</font>
 
-**TO VIEW DEMO VIDEO -->** [<ins>Click here</ins>](video.mp4)
+<b>TO VIEW DEMO VIDEO --></b> [<ins>Click here</ins>](video.mp4)
 
