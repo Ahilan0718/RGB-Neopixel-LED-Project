@@ -1,13 +1,13 @@
-#define BLYNK_TEMPLATE_ID "TMPL37Vw79qtG"
-#define BLYNK_TEMPLATE_NAME "ESP 32 TOUCH CONTROL"
-#define BLYNK_AUTH_TOKEN "x1fZCNJd3bcTh-glMKUOBomV3c1IEqRy"
+#define BLYNK_TEMPLATE_ID "Enter_Template_ID"
+#define BLYNK_TEMPLATE_NAME "Enter_Template_name"
+#define BLYNK_AUTH_TOKEN "Enter_char_auth_token"
 
 #include <Adafruit_NeoPixel.h>
 #include <WiFi.h>
 #include <BlynkSimpleEsp32.h>
 
-char ssid[] = "RnD";
-char pass[] = "P@ssw0rd";
+char ssid[] = "WiFi_ssid";
+char pass[] = "WiFi_password";
 
 #define TOUCH_PIN     15
 #define LED_PIN       5
