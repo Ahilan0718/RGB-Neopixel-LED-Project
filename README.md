@@ -127,32 +127,32 @@ void turnOffLEDs() {
 </code>
   </pre>
 
-> ## <b><i><font color="lighblue">CIRCUIT DIAGRAM</font></i></b>
+> ## <font color="lighblue"><b><i>CIRCUIT DIAGRAM</i></b></font>
 
 ![CIRCUIT DIAGRAM](Circuit_diagram.png)
 
-> ## <b><i><font color="lighblue">BLYNK WEB APP SETUP</font></i></b>
-- <b><font color="lightgreen">CREATE TEMPLATE</font></b>
+> ## <font color="lighblue"><b><i>BLYNK WEB APP SETUP</i></b></font>
+- <font color="lightgreen"><b>CREATE TEMPLATE</b></font>
 
 ![1](1.png)
 
-- <b><font color="lightgreen">CREATE DATASTREAMS</font></b>
+- <font color="lightgreen"><b>CREATE DATASTREAMS</b></font>
   
 ![2](2.png)
 
-- <b><font color="lightgreen">SET UP WEB DASHBOARD</font></b>
+- <font color="lightgreen"><b>SET UP WEB DASHBOARD</b></font>
   
 ![3](3.png)
 
-- <b><font color="lightgreen">DEVICE CREATION</font></b>
+- <font color="lightgreen"><b>DEVICE CREATION</b></font>
 
 ![4](4.png)
 
-> ## <b><i><font color="lighblue">BLYNK USER INTERFACE</font></i></b>
+> ## <font color="lighblue"><b><i>BLYNK USER INTERFACE</i></b></font>
 
 ![UI](phone.jpg)
 
-> ## <b><i><font color="lighblue">NOTES</font></i></b>
+> ## <font color="lighblue"><b><i>NOTES</i></b></font>
 
 <ul>
 <li><mark>A separate library has to be installed and included</mark> in the code for the RGB Neopixel to be enabled and the intensities of the colours can be changed.</li>
@@ -163,12 +163,12 @@ void turnOffLEDs() {
 <li>Use an USB cable that transmits both power and data to the ESP 32 while uploading the code.</li>
 </ul>
 
-> ## <b><i><font color="lighblue">MODIFICATIONS</font></i></b>
+> ## <font color="lighblue"><b><i>MODIFICATION0S</i></b></font>
 
 <ul>
 <li><mark>A PIR motion sensor (HC-SR501 Module)</mark> can be used instead of a touch sensor to enable the LED to switch on when motion is detected.</li>
 </ul>
 
-> ## <b><i><font color="lighblue">DEMO VIDEO</font></i></b>
+> ## <font color="lighblue"><b><i>DEMO VIDEO</i></b></font>
 
-<b>TO VIEW DEMO VIDEO --></b> [<ins>Click here</ins>](video.mp4)
+**TO VIEW DEMO VIDEO -->** [<ins>Click here</ins>](video.mp4)
