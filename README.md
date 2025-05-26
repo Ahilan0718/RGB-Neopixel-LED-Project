@@ -1,4 +1,4 @@
-# <center><b><font color="yellow">RGB NEOPIXEL LED PROJECT</font></center>
+# <center><b><font color="yellow">RGB NEOPIXEL LED PROJECT</font>
 
 ### **<font color="lighblue">TABLE OF CONTENTS :</font>**
 <ol>
