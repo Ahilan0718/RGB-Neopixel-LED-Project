@@ -1,6 +1,6 @@
-# <center>**RGB NEOPIXEL LED PROJECT**</center>
+# <center>**<font color="yellow">RGB NEOPIXEL LED PROJECT</font>**</center>
 
-### **TABLE OF CONTENTS :**
+### **<font color="lighblue">TABLE OF CONTENTS :</font>**
 <ol>
 <li><a href="#overview">Overview</a></li>
 <li><a href="#hardware-components">Hardware components</a></li>
