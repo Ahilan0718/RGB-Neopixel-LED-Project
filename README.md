@@ -171,4 +171,4 @@ void turnOffLEDs() {
 
 > ## <b><i><font color="lighblue">DEMO VIDEO</font></i></b>
 
-**TO VIEW DEMO VIDEO -->** [<ins>Click here</ins>](video.mp4)
+<b>TO VIEW DEMO VIDEO --></b> [<ins>Click here</ins>](video.mp4)
